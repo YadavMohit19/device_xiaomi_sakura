@@ -31,7 +31,7 @@ $(call inherit-product, device/xiaomi/sakura/device.mk)
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-DEVICE_MAINTAINER := Zabuka Zuzu
+DEVICE_MAINTAINER := Soumyajit Paul
 PRODUCT_DEVICE := sakura
 PRODUCT_NAME := xtended_sakura
 BOARD_VENDOR := Xiaomi
