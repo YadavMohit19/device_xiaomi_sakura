@@ -28,12 +28,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/sakura/device.mk)
 
 # Inherit some common Descendantoss stuff.
-$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
 # Device identifier. This must come after all inclusions
 DEVICE_MAINTAINER := yadavmohit19
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := descendant_sakura
+PRODUCT_NAME := cherish_sakura
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
@@ -44,11 +45,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Face Unlock Flag
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Gapps Flag
-TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
