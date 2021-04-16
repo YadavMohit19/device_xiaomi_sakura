@@ -195,6 +195,7 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libnl \
     libtinyxml
+    vendor.display.config@1.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
