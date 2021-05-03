@@ -27,13 +27,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/sakura/device.mk)
 
-# Inherit some common Descendantoss stuff.
+# Inherit some common fluidos stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+
+# Cherish flags
+CHERISH_BULD_TYPE=OFFICAL
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=YadavMohit19
 
 # Device identifier. This must come after all inclusions
-DEVICE_MAINTAINER := yadavmohit19
 PRODUCT_DEVICE := sakura
 PRODUCT_NAME := cherish_sakura
 BOARD_VENDOR := Xiaomi
@@ -54,6 +56,3 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-
-#OFFICAL
-CHERISH_BULD_TYPE=OFFICAL
