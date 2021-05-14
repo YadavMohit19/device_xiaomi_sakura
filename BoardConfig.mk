@@ -149,7 +149,6 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 TARGET_KERNEL_CONFIG := sakura_defconfig
 TARGET_KERNEL_VERSION := 4.9
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r370808b
 
@@ -197,10 +196,9 @@ VENDOR_SECURITY_PATCH := 2020-11-05
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Shims
 TARGET_LD_SHIM_LIBS := \
