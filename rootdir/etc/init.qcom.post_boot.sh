@@ -5808,7 +5808,7 @@ echo 0   > /dev/cpuset/top-app/uclamp.latency_sensitive
 echo 50 > /dev/cpuset/foreground/uclamp.max
 echo 20 > /dev/cpuset/foreground/uclamp.min
 echo 0  > /dev/cpuset/foreground/uclamp.boosted
-echo 0  > /dev/cpuset/foreground/uclamp.latency_sensitive
+echo 0  > /dev/cpuset/foreground/uclamp.latency_sensitiv
 
 #background
 echo max > /dev/cpuset/background/uclamp.max
