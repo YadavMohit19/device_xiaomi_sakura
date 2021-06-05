@@ -441,16 +441,6 @@ vendor/firmware/a506_zap.mdt
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# IOP - from LA.UM.9.6.2.r1-03600-89xx.0
-system_ext/lib/vendor.qti.hardware.iop@2.0.so|aad67526568b33128f087c7f5f7a4e81da26b0bc
-system_ext/lib64/vendor.qti.hardware.iop@2.0.so|3da38cf59259d9327c1d05e7f9eed72628998303
-vendor/lib/libqti-iopd-client.so|7ce1fb3256642e8ce2303e66f8224fe52c64c62c
-vendor/lib/vendor.qti.hardware.iop@1.0.so|51233dada4b92e7c6a9fc24e7d00b073b53b1fb0
-vendor/lib/vendor.qti.hardware.iop@2.0.so|a4fe30b74cbba04f105b60500b750719c9187ee8
-vendor/lib64/libqti-iopd-client.so|512e12a6a86eb2dc5ad73a590c996d0e67e2ec1a
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|ab7e9d16481a52a919cd7484eed480913ce29e66
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|a99da96aa7abf8b9a4cb950113d7fe4ccbe4ff6c
-
 # Ipacm
 vendor/bin/ipacm-diag
 
