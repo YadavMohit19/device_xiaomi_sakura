@@ -60,3 +60,6 @@ genfscon sysfs /class/leds/led:torch_0/max_brightness            u:object_r:sysf
 genfscon sysfs /class/leds/led:torch_1/max_brightness            u:object_r:sysfs_tbrightness:s0
 genfscon sysfs /devices/soc/leds-atc-25/driver/leds-atc-25/leds/charging/max_brightness		u:object_r:sysfs_chargeled:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,camera-flash/leds/torch-light1/max_brightness		u:object_r:sysfs_yintensity:s0
+
+# Smart Charging
+genfscon sysfs /sys/class/power_supply/battery/input_suspend                                                                                u:object_r:sysfs_battery_supply:s0

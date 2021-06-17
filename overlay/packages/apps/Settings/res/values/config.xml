@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
@@ -21,6 +21,6 @@
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
 
     <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
+    <bool name="config_smartChargingAvailable">true</bool>
 </resources>
 

@@ -29,3 +29,6 @@ allow init vendor_file:file { execute execute_no_trans };
 
 # USB Fastcharger
 allow init sysfs_fcharge:file { write };
+
+# Smart charging
+allow init sysfs_battery_supply:file { setattr };
