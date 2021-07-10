@@ -34,8 +34,10 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 IS_PHONE := true
 scr_resolution := 1080
 
+# Corvus Flag
+CORVUS_MAINTAINER= YadavMohit19
+
 # Device identifier. This must come after all inclusions
-DEVICE_MAINTAINER := Yadavmohit19
 PRODUCT_DEVICE := sakura
 PRODUCT_NAME := corvus_sakura
 BOARD_VENDOR := Xiaomi
