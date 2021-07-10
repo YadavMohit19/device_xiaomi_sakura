@@ -35,6 +35,7 @@ IS_PHONE := true
 scr_resolution := 1080
 
 # Corvus Flag
+RAVEN_LAIR= Official
 CORVUS_MAINTAINER= YadavMohit19
 
 # Device identifier. This must come after all inclusions
