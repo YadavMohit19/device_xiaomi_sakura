@@ -156,7 +156,8 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     camera.msm8953 \
-    libmm-qcamera
+    libmm-qcamera \
+    GcamGo
 
 # Component overrides
 PRODUCT_COPY_FILES += \
