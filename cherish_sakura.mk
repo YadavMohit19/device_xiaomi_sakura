@@ -24,14 +24,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
-# Inherit from mido device
+# Inherit from sakura device
 $(call inherit-product, device/xiaomi/sakura/device.mk)
 
-# Inherit some common fluidos stuff.
+# Inherit some common cherishos stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Cherish flags
-CHERISH_BULD_TYPE=OFFICAL
+CHERISH_BULID_TYPE=OFFICAL
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=YadavMohit19
 
