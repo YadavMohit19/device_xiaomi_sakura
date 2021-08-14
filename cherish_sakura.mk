@@ -31,7 +31,7 @@ $(call inherit-product, device/xiaomi/sakura/device.mk)
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Cherish flags
-CHERISH_BULID_TYPE=OFFICAL
+CHERISH_BUILD_TYPE=OFFICIAL
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=YadavMohit19
 
