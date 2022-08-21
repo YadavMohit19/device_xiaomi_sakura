@@ -1,16 +1,19 @@
 # Camera read only property
-type camera_ro_prop, vendor_property_type, property_type;
-type vendor_camera_prop, vendor_property_type, property_type;
+vendor_public_prop(camera_ro_prop);
+vendor_public_prop(vendor_camera_prop);
 
 # Dirac
-type dirac_prop, vendor_property_type, property_type;
+vendor_public_prop(dirac_prop);
+
+# Fingerprint
+vendor_public_prop(vendor_fingerprint_prop);
 
 #mwqem property
 vendor_restricted_prop(vendor_mwqem_prop);
 
 # Thermal engine
-type thermal_engine_prop, vendor_property_type, property_type;
-type vendor_thermal_prop, vendor_property_type, property_type;
+vendor_public_prop(thermal_engine_prop);
+vendor_public_prop(vendor_thermal_prop);
 
 # Spectrum
 type spectrum_prop, vendor_property_type, property_type;
@@ -29,3 +32,6 @@ type lkm_prop, vendor_property_type, property_type;
 
 # TCP
 type tcp_prop, vendor_property_type, property_type;
+
+# Wifi
+vendor_public_prop(vendor_wifi_prop);

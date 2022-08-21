@@ -1,5 +1,5 @@
 add_hwservice(cnd, hal_slmadapter_hwservice)
-allow cnd wifi_prop:file { getattr open read };
+set_prop(cnd, vendor_wifi_prop);
 
 get_prop(cnd, vendor_mwqem_prop)
 add_hwservice(cnd, hal_mwqemadapter_hwservice)
