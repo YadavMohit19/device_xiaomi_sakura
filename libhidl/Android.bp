@@ -13,9 +13,7 @@ cc_library_shared {
 
 cc_library_shared {
     name: "android.hidl.base@1.0_system",
-    shared_libs: ["libhidlbase"],
-    system_ext_specific: true,
-    vendor_available: true,
+
 }
 
 cc_library_shared {
