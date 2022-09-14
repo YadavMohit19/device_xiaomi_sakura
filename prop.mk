@@ -67,6 +67,7 @@ bluetooth.profile.pan.nap.enabled=true \
 bluetooth.profile.pan.panu.enabled=true \
 bluetooth.profile.pbap.server.enabled=true \
 bluetooth.profile.sap.server.enabled=true \
+bluetooth.hardware.power.operating_voltage_mv=3300 \
 bluetooth.device.class_of_device=90,2,12
 
 # Boot
