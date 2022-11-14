@@ -14,6 +14,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
+
+# Indicate the first api level the device has been commercially launched on
+PRODUCT_SHIPPING_API_LEVEL := 26
+
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/sakura/device.mk)
 
