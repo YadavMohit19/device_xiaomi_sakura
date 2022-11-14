@@ -260,8 +260,9 @@ SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.base@1.0_system \
+    android.hidl.base@1.0.vendor \
     android.hidl.manager@1.0 \
+    android.hidl.manager@1.0.vendor \
     libhidltransport \
     libhwbinder \
     libhidltransport.vendor \
